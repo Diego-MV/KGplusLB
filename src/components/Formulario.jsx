@@ -25,9 +25,9 @@ const Label = styled.label`
     color: #FFF;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 2.4rem;
-    margin-top: 2rem;
-    display:block;
+    font-size: 2rem;
+    margin-top: 20px;
+    display: block;
 `;
 const Input = styled.input`
     width: 100%;

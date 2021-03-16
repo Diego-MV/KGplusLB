@@ -5,7 +5,6 @@ const ResultadoDiv = styled.div`
   color: #12526b;
   font-family: "Bebas Neue", cursive;
   text-align: center;
-  max-height: 40px;
 `;
 const Precio = styled.p`
   font-size: 30px;
@@ -20,7 +19,7 @@ const Resultado = ({ resultado }) => {
       <div className="card-body ">
         <ResultadoDiv>
           <Precio>
-            El peso total es: <span>{String(resultado).slice(0,6)} KG</span>
+            El peso total es: <span>{resultado} KG</span>
           </Precio>
         </ResultadoDiv>
         
