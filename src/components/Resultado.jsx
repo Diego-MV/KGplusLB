@@ -4,7 +4,8 @@ import styled from "@emotion/styled";
 const ResultadoDiv = styled.div`
   color: #12526b;
   font-family: "Bebas Neue", cursive;
-    text-align: center;
+  text-align: center;
+  max-height: 40px;
 `;
 const Precio = styled.p`
   font-size: 30px;
@@ -15,7 +16,7 @@ const Precio = styled.p`
 
 const Resultado = ({ resultado }) => {
     return (
-    <div className="card mb-4">
+    <div className="card mb-2">
       <div className="card-body ">
         <ResultadoDiv>
           <Precio>

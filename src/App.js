@@ -25,10 +25,10 @@ const Heading = styled.div`
   font-family: 'Bebas Neue', cursive;
   color: #FFF;
   text-align: left;
-  font-weight: 700;
-  font-size: 50px;
+  font-weight: 600;
+  font-size: 40px;
   margin-bottom: 50px;
-  margin-top: 80px;
+  margin-top: 20px;
 
   &::after{
     content: '';
