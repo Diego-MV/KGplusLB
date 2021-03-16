@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/KGplusLB/static/css/main.f3947158.chunk.css",
+    "main.js": "/KGplusLB/static/js/main.e6d16065.chunk.js",
+    "main.js.map": "/KGplusLB/static/js/main.e6d16065.chunk.js.map",
+    "runtime-main.js": "/KGplusLB/static/js/runtime-main.a570665b.js",
+    "runtime-main.js.map": "/KGplusLB/static/js/runtime-main.a570665b.js.map",
+    "static/js/2.a7988008.chunk.js": "/KGplusLB/static/js/2.a7988008.chunk.js",
+    "static/js/2.a7988008.chunk.js.map": "/KGplusLB/static/js/2.a7988008.chunk.js.map",
+    "static/js/3.6ecf9d89.chunk.js": "/KGplusLB/static/js/3.6ecf9d89.chunk.js",
+    "static/js/3.6ecf9d89.chunk.js.map": "/KGplusLB/static/js/3.6ecf9d89.chunk.js.map",
+    "index.html": "/KGplusLB/index.html",
+    "static/css/main.f3947158.chunk.css.map": "/KGplusLB/static/css/main.f3947158.chunk.css.map",
+    "static/js/2.a7988008.chunk.js.LICENSE.txt": "/KGplusLB/static/js/2.a7988008.chunk.js.LICENSE.txt",
+    "static/media/lift.e2a940e9.png": "/KGplusLB/static/media/lift.e2a940e9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a570665b.js",
+    "static/js/2.a7988008.chunk.js",
+    "static/css/main.f3947158.chunk.css",
+    "static/js/main.e6d16065.chunk.js"
+  ]
+}
