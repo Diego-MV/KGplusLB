@@ -20,7 +20,7 @@ const Resultado = ({ resultado }) => {
       <div className="card-body ">
         <ResultadoDiv>
           <Precio>
-            El peso total es: <span>{resultado} KG</span>
+            El peso total es: <span>{String(resultado).slice(0,6)} KG</span>
           </Precio>
         </ResultadoDiv>
         
