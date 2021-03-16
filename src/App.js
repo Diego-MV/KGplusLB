@@ -27,8 +27,8 @@ const Heading = styled.div`
   text-align: left;
   font-weight: 600;
   font-size: 40px;
-  margin-bottom: 50px;
-  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 
   &::after{
     content: '';

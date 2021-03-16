@@ -8,6 +8,7 @@ const ResultadoDiv = styled.div`
 `;
 const Precio = styled.p`
   font-size: 23px;
+  margin-bottom: 4px;
   span {
     color: #f6931a;
   }
