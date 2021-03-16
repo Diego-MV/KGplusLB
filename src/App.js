@@ -45,16 +45,19 @@ function App() {
   const [ resultado, setResultado ] = useState(0);
   
   useEffect(() => {
+    
     const Calculo = () => {
+      if(isNaN(parseFloat(kg))) {setKg(0)}
+      if(isNaN(parseFloat(lb))) {setLb(0)}
       const lbTokg = parseFloat(lb) * 0.454;
       const res = parseFloat(kg) + parseFloat(lbTokg);
       if(isNaN(res)){
         setResultado(0);
         return;
       }
-      setResultado(  )
+      setResultado(res)
     }
-    if (kg === 0 || lb === 0 || kg === "" || lb === "") return 
+    if (kg === "" && lb === "") return 
     else {
       setLoading(true);
       setTimeout( () => {

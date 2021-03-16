@@ -45,8 +45,8 @@ const Formulario = ({ sendKg, sendLb }) => {
   
   const handleSubmit = (e) => {
     e.preventDefault();
-    if(kg === '') {setKg(0)}
-    if(lb === '') {setLb(0)}
+    if(isNaN(parseFloat(kg))) {setKg(0)}
+    if(isNaN(parseFloat(lb))) {setLb(0)}
 
     if ( parseFloat(kg) < 0 || parseFloat(lb) < 0 ) {
       setError({ exist: true, description: "Ingresa números positivos" });
