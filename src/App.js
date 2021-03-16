@@ -86,7 +86,7 @@ function App() {
             : <Resultado resultado={resultado}/>}
         </div>
       </Contenedor>
-      <div className="position-absolute bottom-0 end-0">v1.0</div>
+      <div className="position-absolute bottom-0 end-0">v1.1</div>
     </div>
   );
 }
