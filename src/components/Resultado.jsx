@@ -7,7 +7,7 @@ const ResultadoDiv = styled.div`
   text-align: center;
 `;
 const Precio = styled.p`
-  font-size: 30px;
+  font-size: 23px;
   span {
     color: #f6931a;
   }
@@ -19,7 +19,10 @@ const Resultado = ({ resultado }) => {
       <div className="card-body ">
         <ResultadoDiv>
           <Precio>
-            El peso total es: <span>{resultado} KG</span>
+            El peso en discos es: <span>{resultado} KG</span>
+          </Precio>
+          <Precio>
+            El peso con barra es: <span>{parseFloat(resultado)+20} KG</span>
           </Precio>
         </ResultadoDiv>
         
