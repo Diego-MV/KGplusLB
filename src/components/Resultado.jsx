@@ -23,6 +23,7 @@ const Resultado = ({ resultado }) => {
           </Precio>
         </ResultadoDiv>
       </div>
+      <div className="fixed-bottom">v1.0</div>
     </div>
   );
 };

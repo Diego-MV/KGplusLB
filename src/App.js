@@ -86,7 +86,6 @@ function App() {
             : <Resultado resultado={resultado}/>}
         </div>
       </Contenedor>
-      <div className="fixed-bottom">v1.0</div>
     </div>
   );
 }
