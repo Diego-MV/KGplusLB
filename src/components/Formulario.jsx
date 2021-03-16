@@ -27,7 +27,7 @@ const Label = styled.label`
     font-weight: bold;
     font-size: 2rem;
     margin-top: 20px;
-    display: block;
+    display:block;
 `;
 const Input = styled.input`
     width: 100%;
