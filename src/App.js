@@ -69,7 +69,7 @@ function App() {
    
   
   return (
-    <div className="container-fluid w\-100">
+    <div className="container-fluid w-100 h-100">
       <Contenedor className='row'>
         <div className="d-none d-sm-none d-lg-block d-md-block d-xl-block col-lg-4">
           <Imagen  src={imagen} alt="img lift" />
@@ -86,6 +86,7 @@ function App() {
             : <Resultado resultado={resultado}/>}
         </div>
       </Contenedor>
+      <div className="position-absolute bottom-0 end-0">v1.0</div>
     </div>
   );
 }

@@ -16,14 +16,15 @@ const Precio = styled.p`
 const Resultado = ({ resultado }) => {
     return (
     <div className="card mb-4">
-      <div className="card-body">
+      <div className="card-body ">
         <ResultadoDiv>
           <Precio>
             El peso total es: <span>{resultado} KG</span>
           </Precio>
         </ResultadoDiv>
+        
       </div>
-      <div className="fixed-bottom">v1.0</div>
+      
     </div>
   );
 };
