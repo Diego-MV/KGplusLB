@@ -106,7 +106,7 @@ const Selector = () => {
             : <Resultado resultado={resultado}/>}
         </div>
       </Contenedor>
-      <div className="position-absolute bottom-0 end-0">v1.2</div>
+      <div className="position-absolute bottom-0 end-0">v2.0</div>
     </div>
   );
 };
